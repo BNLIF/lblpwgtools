@@ -23,6 +23,8 @@
 #include "sys/stat.h"
 #include "wordexp.h"
 
+#include <unistd.h>  // for gethostname
+
 namespace ana
 {
   double LLPerBinFracSystErr::fgErr = -1;
